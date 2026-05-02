@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    main {
+        grid-template-columns: auto 300px 1fr auto;
+    }
+
+    section#ficha {
+        grid-column: 2 / 3;
+        height: fit-content;
+        position: sticky;
+        top: 65px;
+    }
+
+    #detalhes {
+        grid-column: 3 / 4;
+    }
+
+    .containertd {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #bloco {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #bloco .fotob {
+        max-height: 150px;
+    }
+
+}
+
